@@ -17,7 +17,7 @@ export const appConfig: ApplicationConfig = {
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     provideIonicAngular({ mode: 'ios' }),
-    provideClientHydration(),
+    // provideClientHydration(),
     provideRouter(routes),
   ],
 };
